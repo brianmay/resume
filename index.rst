@@ -1,5 +1,5 @@
-Brian May documentation
-=======================
+Resume of Brian May
+===================
 
 
 .. only:: html
