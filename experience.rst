@@ -8,28 +8,28 @@ Freexian (Debian LTS)
 | Package Developer,
 | February 2016 to present
 
-    Creating security updated packages for legacy Debian based operating
-    systems. This is a thankless task that must be done very carefully
-    so as not to break critical computer systems. It involves
-    coordination with other team members, the Debian security team, the
-    package maintainers, upstream authors, and any other relevant party.
+Creating security updated packages for legacy Debian based operating
+systems. This is a thankless task that must be done very carefully
+so as not to break critical computer systems. It involves
+coordination with other team members, the Debian security team, the
+package maintainers, upstream authors, and any other relevant party.
 
 .. index:: Windows, Python, Debian, Linux, Samba, LDAP, VPAC, VLSCI, Karaage
 .. index:: CISCO, VMs
 
 VPAC (aka V3 Alliance)
 ----------------------
-| Systems Administrator / Python Developers,
+| Systems Administrator / Python Developer,
 | May 2006 to June 2015
 
-    Initially I was responsible for the administration of the desktop
-    computers. This includes the initial installation of the operating
-    system (CentOS), and installing new software. I installed and
-    administrated the tape backup system (Tivoli Storage Manager). I
-    also assist with administrating the network. This has involved
-    considerable work with both Linux and Windows. Later on, I moved to
-    more Python2 and Python3 programming, especially with the open
-    source Karaage project.
+Initially I was responsible for the administration of the desktop
+computers. This includes the initial installation of the operating
+system (CentOS), and installing new software. I installed and
+administrated the tape backup system (Tivoli Storage Manager). I
+also assist with administrating the network. This has involved
+considerable work with both Linux and Windows. Later on, I moved to
+more Python2 and Python3 programming, especially with the open
+source Karaage project.
 
 Major projects include:
 
@@ -76,13 +76,13 @@ Microcom Australia
 | Systems Administrator,
 | December 1993 to present
 
-    I have set up a secure network infrastructure, with backed up data.
-    Traditionally such a setup would have required multiple computers,
-    leading to higher setup costs and higher running costs. I am
-    constantly on the look out for new programs to help ease
-    administration and make the system more secure. Initially I used XEN
-    to host my virtual systems; currently I am using Proxmox using
-    OpenVZ and KVM sessions.
+I have set up a secure network infrastructure, with backed up data.
+Traditionally such a setup would have required multiple computers,
+leading to higher setup costs and higher running costs. I am
+constantly on the look out for new programs to help ease
+administration and make the system more secure. Initially I used XEN
+to host my virtual systems; currently I am using Proxmox using
+OpenVZ and KVM sessions.
 
 Major projects include:
 
@@ -107,12 +107,12 @@ Debian
 | Package Developer,
 | January 1998 to present
 
-    Debian is a free non-proprietary operating system, which is designed
-    and implemented by volunteers world wide. I started by packaging
-    maintaining the Heimdal package for Debian (Kerberos). Currently I
-    maintain a number of Python packages as part of the Debian Python
-    Modules Team. I contribute to mailing list discussions on the future
-    directions that the operating should take.
+Debian is a free non-proprietary operating system, which is designed
+and implemented by volunteers world wide. I started by packaging
+maintaining the Heimdal package for Debian (Kerberos). Currently I
+maintain a number of Python packages as part of the Debian Python
+Modules Team. I contribute to mailing list discussions on the future
+directions that the operating should take.
 
 Major Achievements:
 
@@ -129,3 +129,10 @@ Major Achievements:
    exact list can vary without notice, however as of writing includes
    Heimdal, Django, Django Rest Framework, and a number of other Python
    packages.
+
+Older
+-----
+Previously I have worked for a number of other companies. Most notable:
+
+- 4 years working as a Systems administrator for SWS.
+- 3 years working as a PHP Developer at IVT.
