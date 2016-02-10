@@ -14,6 +14,7 @@ Brian May documentation
    experience
    hobbies
    training
+   contact
    references
 
 .. only:: html
