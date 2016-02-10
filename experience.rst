@@ -130,7 +130,7 @@ Major Achievements:
    Heimdal, Django, Django Rest Framework, and a number of other Python
    packages.
 
-Older
+Other
 -----
 Previously I have worked for a number of other companies. Most notable:
 
