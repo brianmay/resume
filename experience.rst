@@ -55,7 +55,7 @@ Major projects include:
 -  Creating and maintaining packages required for Karaage in Debian.
    Fixing broken tests and otherwise assisting upstream developers as
    required.
--  Karaage talk at PyCon AU 2015.
+-  Karaage talk at `PyCon AU 2015 <https://www.youtube.com/watch?v=9yiiwcntx5M>`_.
 -  Placard. Another open source Python2 Python3 program for
    reading/writing users in LDAP, which supports a number of schemas
    (e.g. Openldap and AD).
