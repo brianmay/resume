@@ -8,21 +8,21 @@ Skills
 
 Software Development
 --------------------
-I keep my Python skills up to date by anually attending the PyCon AU
+I keep my Python skills up to date by annually attending the PyCon AU
 conference. I also am responsible for maintaining a number of Python
 packages – in Debian and as upstream.
 
 Designing computer programs that automate tasks that otherwise would
 have to be done manually. Use of modern revision control systems
 including svn, git, bzr, monotone, and mercurial. My recent experience
-is in Django, with Python2/Python3 for Linux based systems. I am also
-experienced with testing with travis-ci and Continuous integration (CI)
+is in Django, with Python 2/Python 3 for Linux based systems. I am also
+experienced with testing with Travis and Continuous integration (CI)
 using Gerrit and Jenkins. I have learned about using Zuul with Gerrit
 and Jenkins. Since leaving my previous job, I have continued to develop
 these skills, and have learnt about packages such as
-django-rest-framework.
+Django-Rest-Framework.
 
-Languages: Python2, Python3, C, C++, Ada, Perl, Java, Javascript,
+Languages: Python 2, Python 3, C, C++, Ada, Perl, Java, JavaScript,
 Typescript, and Bash.
 
 .. index:: Linux
@@ -46,9 +46,9 @@ administrate my own Internet server that hosts websites, a mail server,
 and telephone exchange.
 
 Virtual machine hosts, including those based on Ganeti, OpenVZ, KVM,
-LXC, Xen, Ovirt. Have also explored Openstack and VMWare.
+LXC, Xen, oVirt. Have also explored OpenStack and VMWare.
 
-TSM tape backups, IBM tape libraries, LT04 tape drives. Bacula backup
+TSM tape backups, IBM tape libraries, LTO4 tape drives. Bacula backup
 software.
 
 .. index:: security, SSL, GnuPG, SE-Linux

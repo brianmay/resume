@@ -11,13 +11,13 @@ MelbournePUG is the Melbourne Python User's group.
 I am the upstream maintainer for open source software, including Spud,
 Django-Guardian, and sshuttle. Spud is an open source database for Photos
 written in Python/Django. Django-Guardian is a per object permission system for
-Django, and sshuttle is a VPN wrapper for ssh.
+Django, and sshuttle is a VPN wrapper for SSH.
 
 .. index:: Linux
 
 Linux
 -----
-I regularly attend Linux.conf.au conferences and Linux Users Victoria meetings.
+I regularly attend linux.conf.au conferences and Linux Users Victoria meetings.
 Linux Users Victoria is a Linux user group that discusses Linux issues. I also
 regularly attend Free Software Melbourne meetings.
 
@@ -25,7 +25,7 @@ regularly attend Free Software Melbourne meetings.
 
 Android programming
 -------------------
-Have learned the basics on how to write apps for Android.
+Have learned the basics on how to write applications for Android.
 
 .. index:: Photography
 

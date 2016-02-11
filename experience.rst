@@ -28,25 +28,26 @@ system (CentOS), and installing new software. I installed and
 administrated the tape backup system (Tivoli Storage Manager). I
 also assist with administrating the network. This has involved
 considerable work with both Linux and Windows. Later on, I moved to
-more Python2 and Python3 programming, especially with the open
+more Python 2 and Python 3 programming, especially with the open
 source Karaage project.
 
 Major projects include:
 
--  Implementing and maintaing a Windows Domain. Research Samba 4.
+-  Implementing and maintaining a Windows Domain. Research Samba 4.
 -  Unattended installation of OS on computers using Unattended, Wpkg,
    and Puppet.
 -  Inventory of computers and software installed on computers to ensure
    compliance with software licenses. Lintory is a Python/Django
    application.
--  Maintain backup server running Tivoli and backup tape library.
+-  Maintain backup server running TSM (Tivoli Storage Manager) and backup tape
+   library.
 -  Upgrade old TS3500 tape library to latest firmware, node cards, and
    LTO5 drives.
--  Debug/assist with various systems/network/filesystem issues.
+-  Debug/assist with various systems/network/file system issues.
 -  Administrating network, routers, CISCO switches, Linux firewalls,
-   VLANs, IPv6, etc.
--  Maintain and develop Karaage. A open source Python2 and Python3, that
-   talks to databases such as MySQL, Postgresql, OpenLDAP, ds389, AD,
+   VLAN, IPv6, etc.
+-  Maintain and develop Karaage. A open source Python 2 and Python 3, that
+   talks to databases such as MySQL, PostgreSQL, OpenLDAP, DS389, AD,
    MAM, and Slurm. Development used continuous integration (CI) using
    Gerrit and Jenkins.
 -  Providing Karaage support to VLSCI and other clients as required.
@@ -56,9 +57,9 @@ Major projects include:
    Fixing broken tests and otherwise assisting upstream developers as
    required.
 -  Karaage talk at `PyCon AU 2015 <https://www.youtube.com/watch?v=9yiiwcntx5M>`_.
--  Placard. Another open source Python2 Python3 program for
+-  Placard. Another open source Python 2 Python 3 program for
    reading/writing users in LDAP, which supports a number of schemas
-   (e.g. Openldap and AD).
+   (e.g. OpenLDAP and AD).
 
 Major Achievements:
 
@@ -76,7 +77,7 @@ Microcom Australia
 | Systems Administrator,
 | December 1993 to present
 
-I have set up a secure network infrastructure, with backed up data.
+I have setup a secure network infrastructure, with backed up data.
 Traditionally such a setup would have required multiple computers,
 leading to higher setup costs and higher running costs. I am
 constantly on the look out for new programs to help ease
@@ -94,7 +95,7 @@ Major projects include:
 -  Upgrading Asterisk to Freeswitch.
 -  MythTV system for digital recording and playback of TV shows.
 -  Infrastructure requirements for the above, including DNS servers,
-   CISCO router, Firewalls, VLANs, IPv6, Virtual Xen hosts.
+   CISCO router, Firewalls, VLAN, IPv6, Virtual XEN hosts.
 
 Major Achievements:
 
@@ -124,7 +125,7 @@ Major Achievements:
    the world. Good coordination and communication skills are essential
    in making this work efficiently. As such, I have obtained skills
    required for communicating to other Debian developers in an effective
-   manner, using tools like E-Mail and the Debian bug tracking system.
+   manner, using tools like Email and the Debian bug tracking system.
 -  I maintain and help maintain a number of packages in Debian. The
    exact list can vary without notice, however as of writing includes
    Heimdal, Django, Django Rest Framework, and a number of other Python

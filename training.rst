@@ -13,7 +13,7 @@ Linux and the Linux Community.
 
 Diploma of Screen (Animation)
 -----------------------------
-3D animated graphics at Qantm College
+3d animated graphics at Qantm College
 
 PhD, Computer Security
 ----------------------
