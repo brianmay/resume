@@ -2,7 +2,7 @@ Resume of Brian May
 ===================
 
 
-.. only:: html
+.. only:: html and not singlehtml
 
    Contents:
 
@@ -17,7 +17,7 @@ Resume of Brian May
    contact
    references
 
-.. only:: html
+.. only:: html and not singlehtml
 
    Indices and tables
    ==================
