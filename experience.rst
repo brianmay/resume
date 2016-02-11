@@ -130,6 +130,8 @@ Major Achievements:
    Heimdal, Django, Django Rest Framework, and a number of other Python
    packages.
 
+- `Debian Packages <https://qa.debian.org/developer.php?login=bam%40debian.org&comaint=yes>`_
+
 Other
 -----
 Previously I have worked for a number of other companies. Most notable:

@@ -23,7 +23,3 @@ Various web services I have accounts on:
 - `Github <https://github.com/brianmay/>`_
 - `Gitlab <https://gitlab.com/u/penguin_brian>`_
 - `Linkedin <https://www.linkedin.com/in/brian-may-44824521>`_
-
-Debian packages I help maintain:
-
-- `Debian Packages <https://qa.debian.org/developer.php?login=bam%40debian.org&comaint=yes>`_
