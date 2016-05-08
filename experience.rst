@@ -3,6 +3,17 @@ Experience
 
 .. index:: Debian, security, packaging
 
+The University of Melbourne
+---------------------------
+| Python Developer,
+| April 2016 to Present
+
+Resurrect Karaage. Fix tests in Karaage. Setup Travis tests for Karaage.  Fix
+AAF/Shibboleth usability issues. Setup new Karaage installation for University
+of Melbourne.
+
+.. index:: Python, Debian, Linux, LDAP, Karaage, AAF, Shibboleth, Slurm
+
 Freexian (Debian LTS)
 ---------------------
 | Package Developer,
@@ -50,6 +61,7 @@ Major projects include:
    talks to databases such as MySQL, PostgreSQL, OpenLDAP, DS389, AD,
    MAM, and Slurm. Development used continuous integration (CI) using
    Gerrit and Jenkins.
+-  Import AAF/Shibboleth support in Karaage.
 -  Providing Karaage support to VLSCI and other clients as required.
 -  Maintain server with Debian/Redhat packages and Gerrit/Jenkins for
    Karaage CI.
@@ -70,7 +82,7 @@ Major Achievements:
 -  Successfully made large scale restores from TSM tape backup on
    several occasions.
 
-.. index:: Windows, Python, Debian, Linux, Samba, LDAP, VOIP, VMs
+.. index:: Windows, Python, Debian, Linux, Samba, LDAP, VOIP, VMs, AAF, Shibboleth, Slurm
 
 Microcom Australia
 ------------------
