@@ -15,11 +15,3 @@ GnuPG key servers and has the following fingerprint:
     uid                  Brian May <brian@linuxpenguins.xyz>
     uid                  Brian May <bam@debian.org>
     sub   4096R/CF139710 2015-07-06 [expires: 2020-07-04]
-
-Various web services I have accounts on:
-
-- `Homepage <https://linuxpenguins.xyz/brian/>`_
-- `Stack Overflow <http://careers.stackoverflow.com/penguinbrian>`_
-- `Github <https://github.com/brianmay/>`_
-- `Gitlab <https://gitlab.com/u/penguin_brian>`_
-- `Linkedin <https://www.linkedin.com/in/brian-may-44824521>`_

@@ -3,6 +3,14 @@ Experience
 
 .. index:: Debian, security, packaging
 
+Various web services I have accounts on:
+
+- `Homepage <https://linuxpenguins.xyz/brian/>`_
+- `Stack Overflow <http://careers.stackoverflow.com/penguinbrian>`_
+- `Github <https://github.com/brianmay/>`_
+- `Gitlab <https://gitlab.com/u/penguin_brian>`_
+- `Linkedin <https://www.linkedin.com/in/brian-may-44824521>`_
+
 The University of Melbourne
 ---------------------------
 | Python Developer,
