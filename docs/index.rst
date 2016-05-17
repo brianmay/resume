@@ -1,6 +1,8 @@
 Resume of Brian May
 ===================
 
+:Date: |today|
+:Version: |version|
 
 .. only:: html and not singlehtml
 
