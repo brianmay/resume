@@ -9,7 +9,7 @@ with open("./docs/conf.orig.py", "r") as src:
 
 setup(
     name="brianmay",
-    use_scm_version={},
+    use_scm_version=True,
     setup_requires=['setuptools_scm'],
     url='https://github.com/brianmay/resume/',
     author='Brian May',
