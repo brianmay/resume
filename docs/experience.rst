@@ -11,6 +11,15 @@ Various web services I have accounts on:
 - `Gitlab <https://gitlab.com/u/penguin_brian>`_
 - `Linkedin <https://www.linkedin.com/in/brian-may-44824521>`_
 
+WSP Digital
+-----------
+| Senior Software Engineer
+| May 2016 to present
+
+Python/Django software developer.
+
+.. index:: Python, Django
+
 The University of Melbourne
 ---------------------------
 | Python Developer,
