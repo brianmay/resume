@@ -20,7 +20,7 @@ Resurrect Karaage. Fix tests in Karaage. Setup Travis tests for Karaage.  Fix
 AAF/Shibboleth usability issues. Setup new Karaage installation for University
 of Melbourne.
 
-.. index:: Python, Debian, Linux, LDAP, Karaage, AAF, Shibboleth, Slurm
+.. index:: Python, Django, Debian, Linux, LDAP, Karaage, AAF, Shibboleth, Slurm
 
 Freexian (Debian LTS)
 ---------------------
@@ -90,7 +90,7 @@ Major Achievements:
 -  Successfully made large scale restores from TSM tape backup on
    several occasions.
 
-.. index:: Windows, Python, Debian, Linux, Samba, LDAP, VOIP, VMs, AAF, Shibboleth, Slurm
+.. index:: Windows, Django, Python, Debian, Linux, Samba, LDAP, VOIP, VMs, AAF, Shibboleth, Slurm
 
 Microcom Australia
 ------------------
