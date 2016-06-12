@@ -14,7 +14,7 @@ Various web services I have accounts on:
 The University of Melbourne
 ---------------------------
 | Python Developer,
-| April 2016 to Present
+| April 2016 to May 2016
 
 Resurrect Karaage. Fix tests in Karaage. Setup Travis tests for Karaage.  Fix
 AAF/Shibboleth usability issues. Setup new Karaage installation for University
