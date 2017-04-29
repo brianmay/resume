@@ -16,18 +16,23 @@ WSP Digital
 | Senior Software Engineer
 | May 2016 to present
 
-Python/Django software developer.
+Python/Django/JavaScript software developer. Write websites for clients. One
+project involves Docker containers run on Amazon ECS using EC2 instances and
+shippable for automatic deployment purposes. This project uses Django Channels
+for real time updates and celery for scheduled tasks and Vue as the JavaScript
+framework.
 
-.. index:: Python, Django
+.. index:: Python, Django, Django Channels, Amazon, EC2, ECS
+.. index:: JavaScript, Vue
 
 The University of Melbourne
 ---------------------------
 | Python Developer,
-| April 2016 to May 2016
+| April 2016 to present
 
 Resurrect Karaage. Fix tests in Karaage. Setup Travis tests for Karaage.  Fix
 AAF/Shibboleth usability issues. Setup new Karaage installation for University
-of Melbourne.
+of Melbourne. Update tests 
 
 .. index:: Python, Django, Debian, Linux, LDAP, Karaage, AAF, Shibboleth, Slurm
 

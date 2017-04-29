@@ -22,6 +22,10 @@ and Jenkins. Since leaving my previous job, I have continued to develop
 these skills, and have learnt about packages such as
 Django-Rest-Framework.
 
+Through my work in designing a photo database software, I am also becoming
+experienced in JavaScript, and various add ons, such as Typescript, Angular2,
+and Vue.
+
 Languages: Python 2, Python 3, C, C++, Ada, Perl, Java, JavaScript,
 Typescript, and Bash.
 
@@ -30,6 +34,7 @@ Typescript, and Bash.
 .. index:: Ethernet, TCP/IP, IP, IPv6, SLIP, PPP, IPPP, SMB
 .. index:: VMs, Xen, OpenVZ, Ganeti, VMWare, KVM
 .. index:: TSM, tapes, bacula
+.. index:: JavaScript, TypeScript, Angular2, Vue
 
 Linux/Unix Computer Administration
 ----------------------------------

@@ -1,2 +1,3 @@
+/brianmay/version.py
 /docs/_build
-/docs/conf.py
+*.pyc

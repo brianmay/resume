@@ -2,14 +2,11 @@
 from setuptools import setup, find_packages
 import shutil
 
-with open("./docs/conf.orig.py", "r") as src:
-    with open("./docs/conf.py", "w") as dst:
-        dst.write("# FILE COPIED FROM conf.orig.py; DO NOT CHANGE\n")
-        shutil.copyfileobj(src, dst)
-
 setup(
     name="brianmay",
-    use_scm_version=True,
+    use_scm_version={
+        'write_to': "brianmay/version.py",
+    },
     setup_requires=['setuptools_scm'],
     url='https://github.com/brianmay/resume/',
     author='Brian May',
