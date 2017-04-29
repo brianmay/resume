@@ -4,7 +4,7 @@ Resume of Brian May
 .. only:: html
 
    :Date: |today|
-   :Version: |version|
+   :Version: |release|
 
 .. only:: html and not singlehtml
 
