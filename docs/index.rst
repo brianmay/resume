@@ -20,11 +20,3 @@ Resume of Brian May
    training
    contact
    references
-
-.. only:: html and not singlehtml
-
-   Indices and tables
-   ==================
-
-   + :ref:`genindex`
-   + :ref:`search`
