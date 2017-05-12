@@ -8,23 +8,29 @@ Skills
 
 Software Development
 --------------------
-I keep my Python skills up to date by annually attending the PyCon AU
-conference. I also am responsible for maintaining a number of Python
-packages – in Debian and as upstream.
+I keep my skills up to date by a combination of professional work, personal
+projects, and open source projects I contribute to. I also attend the PyCon AU
+conference annually.
 
-Designing computer programs that automate tasks that otherwise would
-have to be done manually. Use of modern revision control systems
-including svn, git, bzr, monotone, and mercurial. My recent experience
-is in Django, with Python 2/Python 3 for Linux based systems. I am also
-experienced with testing with Travis and Continuous integration (CI)
-using Gerrit and Jenkins. I have learned about using Zuul with Gerrit
-and Jenkins. Since leaving my previous job, I have continued to develop
-these skills, and have learnt about packages such as
-Django-Rest-Framework.
+Designing computer programs and websites that automate tasks that otherwise
+would have to be done manually. Use of modern revision control systems
+including SVN, BZR, Monotone, Mercurial, and especially Git. My recent
+experience is in Django and Django Rest Framework, with Python 2/Python 3 for
+Linux based systems. On the front end, I am also experienced with JavaScript
+(including ES6), TypeScript, and frameworks such as Angular2 and Vue.
 
-Through my work in designing a photo database software, I am also becoming
-experienced in JavaScript, and various add ons, such as Typescript, Angular2,
-and Vue.
+I am also experienced with testing with Travis and Continuous Integration (CI)
+using Gerrit and Jenkins. My current project involves Continuous Deployment (CD)
+of docker based images using a 3rd party service called shippable on Amazon ECS.
+I have learned about using Zuul with Gerrit and Jenkins.
+
+I have open source repositories on GitHub. Including SPUD - a photo database
+using Django Rest Framework and Angular2 technologies, Karaage - a management
+system for Super Computer clusters, and TLDAP - an Object Relation Mapping
+(ORM) Python library to talk to LDAP servers with different schemas.
+
+I have also given talks at Conferences such as PyCon AU and local user
+group meetings on my software.
 
 Languages: Python 2, Python 3, C, C++, Ada, Perl, Java, JavaScript,
 Typescript, and Bash.
