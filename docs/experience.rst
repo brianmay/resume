@@ -1,8 +1,6 @@
 Experience
 ==========
 
-.. index:: Debian, security, packaging
-
 Various web services I have accounts on:
 
 - `Homepage <https://linuxpenguins.xyz/brian/>`_
@@ -22,9 +20,6 @@ shippable for automatic deployment purposes. This project uses Django Channels
 for real time updates and celery for scheduled tasks and Vue as the JavaScript
 framework.
 
-.. index:: Python, Django, Django Channels, Amazon, EC2, ECS
-.. index:: JavaScript, Vue
-
 The University of Melbourne
 ---------------------------
 | Python Developer,
@@ -33,8 +28,6 @@ The University of Melbourne
 Resurrect Karaage. Fix tests in Karaage. Setup Travis tests for Karaage.  Fix
 AAF/Shibboleth usability issues. Setup new Karaage installation for University
 of Melbourne. Update tests 
-
-.. index:: Python, Django, Debian, Linux, LDAP, Karaage, AAF, Shibboleth, Slurm
 
 Freexian (Debian LTS)
 ---------------------
@@ -46,9 +39,6 @@ systems. This is a thankless task that must be done very carefully
 so as not to break critical computer systems. It involves
 coordination with other team members, the Debian security team, the
 package maintainers, upstream authors, and any other relevant party.
-
-.. index:: Windows, Python, Debian, Linux, Samba, LDAP, VPAC, VLSCI, Karaage
-.. index:: CISCO, VMs
 
 VPAC (aka V3 Alliance)
 ----------------------
@@ -104,8 +94,6 @@ Major Achievements:
 -  Successfully made large scale restores from TSM tape backup on
    several occasions.
 
-.. index:: Windows, Django, Python, Debian, Linux, Samba, LDAP, VOIP, VMs, AAF, Shibboleth, Slurm
-
 Microcom Australia
 ------------------
 | Systems Administrator,
@@ -134,8 +122,6 @@ Major projects include:
 Major Achievements:
 
 -  Detailed understanding of Linux and IP networking.
-
-.. index:: Debian, packaging, Python, C
 
 Debian
 ------

@@ -1,11 +1,6 @@
 Skills
 ======
 
-.. index:: development
-.. index:: python, C, C++, Ada, Perl, Java, Javascript
-.. index:: svn, git, bzr, monotone, mercurial
-.. index:: Django, REST, travis-ci, Gerrit, Jenkins, Zuul, django-rest-framework
-
 Software Development
 --------------------
 I keep my skills up to date by a combination of professional work, personal
@@ -35,13 +30,6 @@ group meetings on my software.
 Languages: Python 2, Python 3, C, C++, Ada, Perl, Java, JavaScript,
 Typescript, and Bash.
 
-.. index:: Linux
-.. index:: administration
-.. index:: Ethernet, TCP/IP, IP, IPv6, SLIP, PPP, IPPP, SMB
-.. index:: VMs, Xen, OpenVZ, Ganeti, VMWare, KVM
-.. index:: TSM, tapes, bacula
-.. index:: JavaScript, TypeScript, Angular2, Vue
-
 Linux/Unix Computer Administration
 ----------------------------------
 I keep my Linux skills up to date by maintaining computer and network
@@ -62,8 +50,6 @@ LXC, Xen, oVirt. Have also explored OpenStack and VMWare.
 TSM tape backups, IBM tape libraries, LTO4 tape drives. Bacula backup
 software.
 
-.. index:: security, SSL, GnuPG, SE-Linux
-
 Computer Security
 -----------------
 Authentication and Authorisation. Use and understanding of public key
@@ -73,5 +59,3 @@ Concept of least privileges. Understanding of how SE-Linux (Security Enhanced
 Linux) works, and its potential for increasing security on Linux computers.
 Using Xen, KVM, OpenVZ to isolate different programs to allow greater degree of
 control over the resources (including network resources) they can access.
-
-.. index:: cloud, Dropbox, SpiderOak, unison, tahoe-lafs, SparkleShare
