@@ -11,7 +11,7 @@ Resume of Brian May
    Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    objective
    skills
