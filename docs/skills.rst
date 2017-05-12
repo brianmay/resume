@@ -75,10 +75,3 @@ Using Xen, KVM, OpenVZ to isolate different programs to allow greater degree of
 control over the resources (including network resources) they can access.
 
 .. index:: cloud, Dropbox, SpiderOak, unison, tahoe-lafs, SparkleShare
-
-Cloud storage solutions
------------------------
-Understanding of cloud based backup solutions, including benefits and
-limitations, including Dropbox, SpiderOak, unison, tahoe-lafs, SparkleShare,
-git annex, and others.
-
