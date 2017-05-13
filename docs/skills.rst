@@ -9,10 +9,12 @@ conference annually.
 
 Designing computer programs and websites that automate tasks that otherwise
 would have to be done manually. Use of modern revision control systems
-including SVN, BZR, Monotone, Mercurial, and especially Git. My recent
-experience is in Django and Django Rest Framework, with Python 2/Python 3 for
-Linux based systems. On the front end, I am also experienced with JavaScript
-(including ES6), TypeScript, and frameworks such as Angular2 and Vue.
+including SVN, BZR, Monotone, Mercurial, and especially Git.
+
+My recent experience is in Django and Django Rest Framework, with Python
+2/Python 3 for Linux based systems. On the front end, I am also experienced
+with JavaScript (including ES6), TypeScript, CSS, SASS, and frameworks such as
+Angular2 and Vue.
 
 I am also experienced with testing with Travis and Continuous Integration (CI)
 using Gerrit and Jenkins. My current project involves Continuous Deployment (CD)

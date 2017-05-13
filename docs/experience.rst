@@ -20,14 +20,18 @@ shippable for automatic deployment purposes. This project uses Django Channels
 for real time updates and celery for scheduled tasks and Vue as the JavaScript
 framework.
 
+In working for this company I gained experience in working as part of a formal
+development team in a large company.
+
 The University of Melbourne
 ---------------------------
 | Python Developer,
 | April 2016 to present
 
-Resurrect Karaage. Fix tests in Karaage. Setup Travis tests for Karaage.  Fix
-AAF/Shibboleth usability issues. Setup new Karaage installation for University
-of Melbourne. Update tests 
+Resurrect Karaage. Work with Python, Django, LDAP. Fix tests in Karaage. Setup
+Travis tests for Karaage.  Fix AAF/Shibboleth usability issues. Setup new
+Karaage installation for University of Melbourne. Update tests to latest modern
+standards.
 
 Freexian (Debian LTS)
 ---------------------
