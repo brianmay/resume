@@ -19,4 +19,3 @@ Resume of Brian May
    hobbies
    training
    contact
-   references

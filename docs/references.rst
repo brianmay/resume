@@ -1,4 +1,0 @@
-References
-==========
-
-Available on request.
