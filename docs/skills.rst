@@ -7,30 +7,46 @@ I keep my skills up to date by a combination of professional work, personal
 projects, and open source projects I contribute to. I also attend the PyCon AU
 conference annually.
 
-Designing computer programs and websites that automate tasks that otherwise
-would have to be done manually. Use of modern revision control systems
-including SVN, BZR, Monotone, Mercurial, and especially Git.
+All my projects use git, which is considered the defacto default revision control
+system.
 
-My recent experience is in Django and Django Rest Framework, with Python
-2/Python 3 for Linux based systems. On the front end, I am also experienced
-with JavaScript (including ES6), TypeScript, CSS, SASS, and frameworks such as
-Angular2 and Vue.
+My projects use continuous integration (CI) meaning a set of unit tests automatically
+run with every git push or git pull request. This is typically implemented with
+tools such as Jenkins or Travis. This can then trigger automatically building of docker
+images.
 
-I am also experienced with testing with Travis and Continuous Integration (CI)
-using Gerrit and Jenkins. My current project involves Continuous Deployment (CD)
-of docker based images using a 3rd party service called shippable on Amazon ECS.
-I have learned about using Zuul with Gerrit and Jenkins.
+One of my projects uses continuous delivery (CD) meaning after the CI tests have approved
+the changes, it will build docker images and then automatically deploy the images to ECS
+instances running on AWS EC2 instances.
 
-I have open source repositories on GitHub. Including SPUD - a photo database
-using Django Rest Framework and Angular2 technologies, Karaage - a management
-system for Super Computer clusters, and TLDAP - an Object Relation Mapping
-(ORM) Python library to talk to LDAP servers with different schemas.
+My recent experience is with Python 3 and MicroPython. I have developed using numerous
+python libraries such as Django, Django Rest Framework, and Django Channels.
+
+I am also experienced with JavaScript (including ES6), TypeScript, CSS, SASS, and frameworks
+such as Angular2 and Vue.
+
+I am also very excited with the growth of other programming languages,
+such as Ruby, Scala, Erlang, Elixir and Go. Given the opportunity I would
+jump at the opportunity to learn some of these languages.
 
 I have also given talks at Conferences such as PyCon AU and local user
-group meetings on my software.
+group meetings on my software. Some of the highlights:
 
-Languages: Python 2, Python 3, C, C++, Ada, Perl, Java, JavaScript,
-Typescript, and Bash.
+- Karaage talk at `PyCon AU 2015 <https://www.youtube.com/watch?v=9yiiwcntx5M>`_.
+- Robotica talk at `LCA2018 <https://www.youtube.com/watch?v=mCUpShC9Cs8>`_.
+
+I contribute a lot to discussions in local user group mailing lists.
+
+Open Source Community
+---------------------
+Many of my skills come from open source projects. These are available on github. Some of the highlights are:
+
+- `Spud <https://github.com/brianmay/spud>`_ is a photo database using Django for the REST
+  back-end and Angular for the frontend.
+- `Robotica <https://github.com/brianmay/robotica/>`_ is a asyncio python based tool for
+  management of events around the house.
+- A MicroPython based 3d printed `remote control <https://github.com/brianmay/robotica-remote/>`_
+  for Robotica.
 
 Linux/Unix Computer Administration
 ----------------------------------
@@ -38,26 +54,20 @@ I keep my Linux skills up to date by maintaining computer and network
 systems for personal use. I also attend the Linux.conf.au conference on
 an annual basis.
 
-Networking. Computer networking with Ethernet, TCP/IP (including TCP/IP
-applications), IPv6, SLIP, PPP, IPPP, and SMB protocols. I have setup a
-system where you can boot up Linux on a computer without the need for
-any local disk drives, as everything required is accessed through the
-network. I can also deal with CISCO switches and CISCO routers. I
-administrate my own Internet server that hosts websites, a mail server,
-and telephone exchange.
+In the past I have setup and maintained TSM and Bacula tape backups, IBM tape
+libraries, LTO4 tape drives. I have also setup and maintained a a NT domain Samba
+and done a lot of testing to upgrade this to an AD style domain. 
 
-Virtual machine hosts, including those based on Ganeti, OpenVZ, KVM,
-LXC, Xen, oVirt. Have also explored OpenStack and VMWare.
-
-TSM tape backups, IBM tape libraries, LTO4 tape drives. Bacula backup
-software.
+More currently, at home I maintain a CISCO ADSL router, a UniEdge Router, and a
+UniEdge switch which supports a number of VLANs and a server running a number of
+virtual machines using ProxMox (KVM and LXC). This network fully supports IPv4 and IPv6.
 
 Computer Security
 -----------------
-Authentication and Authorisation. Use and understanding of public key
-technologies, such as SSL and GnuPG (GNU Privacy Guard).
+Computer security is very important, but often neglected.
 
-Concept of least privileges. Understanding of how SE-Linux (Security Enhanced
-Linux) works, and its potential for increasing security on Linux computers.
-Using Xen, KVM, OpenVZ to isolate different programs to allow greater degree of
-control over the resources (including network resources) they can access.
+All of my personal websites fully support secure SSL encryption that gives good results when
+tested with Qualys SSL Labs. Also my DNS records have DNSSEC security.
+
+My work with Debian requires usage of GNU Privacy Guard (GnuPG) for encrypting and signing
+of packages. Furthermore I also use GnuPG with git for ensuring tags cannot be tampered with.

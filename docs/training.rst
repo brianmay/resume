@@ -8,8 +8,8 @@ touch with other Python developers and the latest Python techniques.
 
 Linux Conf Australia (LCA)
 --------------------------
-I have attended every year since 2003 and I have obtained much about
-Linux and the Linux Community.
+I have attended the conference every year since 2003 and I have learned much about
+Linux. I am very involved in the Linux Community.
 
 Diploma of Screen (Animation)
 -----------------------------

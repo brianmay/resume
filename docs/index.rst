@@ -17,5 +17,6 @@ Resume of Brian May
    skills
    experience
    hobbies
+   organisations
    training
    contact

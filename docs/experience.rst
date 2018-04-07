@@ -1,131 +1,38 @@
-Experience
-==========
+Professional Experience
+=======================
 
 Various web services I have accounts on:
 
 - `Homepage <https://linuxpenguins.xyz/brian/>`_
 - `Stack Overflow <http://careers.stackoverflow.com/penguinbrian>`_
 - `Github <https://github.com/brianmay/>`_
-- `Gitlab <https://gitlab.com/u/penguin_brian>`_
+- `GitLab <https://gitlab.com/u/penguin_brian>`_
 - `Linkedin <https://www.linkedin.com/in/brian-may-44824521>`_
 
 WSP Digital
 -----------
-| Senior Software Engineer
+| Senior Software Engineer,
 | May 2016 to present
 
-Python/Django/JavaScript software developer. Write websites for clients. One
-project involves Docker containers run on Amazon ECS using EC2 instances and
-shippable for automatic deployment purposes. This project uses Django Channels
-for real time updates and celery for scheduled tasks and Vue as the JavaScript
-framework.
-
-In working for this company I gained experience in working as part of a formal
-development team in a large company.
+At WSP Digital I am a Python/Django/JavaScript software developer. This
+company does consulting work for a number of big clients. In working for
+this company I gained considerable knowledge in AWS services, such as EC2
+and ECS. I also worked in different teams with different
+protocols for working together and diverse range of opinions.
 
 The University of Melbourne
 ---------------------------
 | Python Developer,
 | April 2016 to present
 
-Resurrect Karaage. Work with Python, Django, LDAP. Fix tests in Karaage. Setup
-Travis tests for Karaage.  Fix AAF/Shibboleth usability issues. Setup new
-Karaage installation for University of Melbourne. Update tests to latest modern
-standards.
-
-Freexian (Debian LTS)
----------------------
-| Package Developer,
-| February 2016 to present
-
-Creating security updated packages for legacy Debian based operating
-systems. This is a thankless task that must be done very carefully
-so as not to break critical computer systems. It involves
-coordination with other team members, the Debian security team, the
-package maintainers, upstream authors, and any other relevant party.
-
-VPAC (aka V3 Alliance)
-----------------------
-| Systems Administrator / Python Developer,
-| May 2006 to June 2015
-
-Initially I was responsible for the administration of the desktop
-computers. This includes the initial installation of the operating
-system (CentOS), and installing new software. I installed and
-administrated the tape backup system (Tivoli Storage Manager). I
-also assist with administrating the network. This has involved
-considerable work with both Linux and Windows. Later on, I moved to
-more Python 2 and Python 3 programming, especially with the open
-source Karaage project.
-
-Major projects include:
-
--  Implementing and maintaining a Windows Domain. Research Samba 4.
--  Unattended installation of OS on computers using Unattended, Wpkg,
-   and Puppet.
--  Inventory of computers and software installed on computers to ensure
-   compliance with software licenses. Lintory is a Python/Django
-   application.
--  Maintain backup server running TSM (Tivoli Storage Manager) and backup tape
-   library.
--  Upgrade old TS3500 tape library to latest firmware, node cards, and
-   LTO5 drives.
--  Debug/assist with various systems/network/file system issues.
--  Administrating network, routers, CISCO switches, Linux firewalls,
-   VLAN, IPv6, etc.
--  Maintain and develop Karaage. A open source Python 2 and Python 3, that
-   talks to databases such as MySQL, PostgreSQL, OpenLDAP, DS389, AD,
-   MAM, and Slurm. Development used continuous integration (CI) using
-   Gerrit and Jenkins.
--  Import AAF/Shibboleth support in Karaage.
--  Providing Karaage support to VLSCI and other clients as required.
--  Maintain server with Debian/Redhat packages and Gerrit/Jenkins for
-   Karaage CI.
--  Creating and maintaining packages required for Karaage in Debian.
-   Fixing broken tests and otherwise assisting upstream developers as
-   required.
--  Karaage talk at `PyCon AU 2015 <https://www.youtube.com/watch?v=9yiiwcntx5M>`_.
--  Placard. Another open source Python 2 Python 3 program for
-   reading/writing users in LDAP, which supports a number of schemas
-   (e.g. OpenLDAP and AD).
-
-Major Achievements:
-
--  Good Teamwork and communication skills with users, developers and
-   administrators.
--  Success in debugging numerous technical issues with computers and
-   networking infrastructure.
--  Successfully made large scale restores from TSM tape backup on
-   several occasions.
-
-Microcom Australia
-------------------
-| Systems Administrator,
-| December 1993 to present
-
-I have setup a secure network infrastructure, with backed up data.
-Traditionally such a setup would have required multiple computers,
-leading to higher setup costs and higher running costs. I am
-constantly on the look out for new programs to help ease
-administration and make the system more secure. Initially I used XEN
-to host my virtual systems; currently I am using Proxmox using
-OpenVZ and KVM sessions.
-
-Major projects include:
-
--  Internet connection to Internode, with full support for IPv6.
--  Public SMTP server with anti-spam configuration.
--  Public web servers for several websites based on Apache, Drupal,
-   Ikiwiki, and Spud.
--  Asterisk PBX system.
--  Upgrading Asterisk to Freeswitch.
--  MythTV system for digital recording and playback of TV shows.
--  Infrastructure requirements for the above, including DNS servers,
-   CISCO router, Firewalls, VLAN, IPv6, Virtual XEN hosts.
-
-Major Achievements:
-
--  Detailed understanding of Linux and IP networking.
+The University of Melbourne uses a project called Karaage for management of users
+on their super computer clusters. This Works with Python, Django, LDAP. They
+require me to maintain Karaage, because I was the lead developer of Karaage while
+at VPAC. This is a difficult project to maintain, because there are numerous users
+of Karaage we have lost contact with since the demise of VPAC. As such there is a
+lot of complexity in legacy code and difficult decisions need to be made when the
+legacy code can be removed or refactored. I have also started a blog to attempt to
+`document <https://karaage-cluster.github.io/>`_ some of the key changes.
 
 Debian
 ------
@@ -139,23 +46,58 @@ maintain a number of Python packages as part of the Debian Python
 Modules Team. I contribute to mailing list discussions on the future
 directions that the operating should take.
 
-Major Achievements:
+Debian is a global project with developers from all over
+the world. Good coordination and communication skills are essential
+in making this work efficiently. As such, I have obtained skills
+required for communicating to other Debian developers in an effective
+manner, using tools like Email and the Debian bug tracking system.
 
--  Increased my knowledge extensively during the course of contributing
-   to Debian, including, but not limited to learning standards such as
-   autoconf, automake, libtool, and XML.
+Good communications is absolutely vital. All communications must be done
+via electronic means over different time zones. If there is a misunderstanding,
+it is not possible to meet face to face to resolve the problem.
 
--  Teamwork. Debian is a global project with developers from all over
-   the world. Good coordination and communication skills are essential
-   in making this work efficiently. As such, I have obtained skills
-   required for communicating to other Debian developers in an effective
-   manner, using tools like Email and the Debian bug tracking system.
--  I maintain and help maintain a number of packages in Debian. The
-   exact list can vary without notice, however as of writing includes
-   Heimdal, Django, Django Rest Framework, and a number of other Python
-   packages.
+Freexian (Debian LTS)
+---------------------
+| Package Developer,
+| February 2016 to present
 
-- `Debian Packages <https://qa.debian.org/developer.php?login=bam%40debian.org&comaint=yes>`_
+Freexian sponsors creating security updated packages for legacy Debian based
+operating systems. This is a thankless task that must be done very carefully
+so as not to break critical computer systems. It involves
+coordination with other team members, the Debian security team, the
+package maintainers, upstream authors, and any other relevant party.
+
+Microcom Australia
+------------------
+| Systems Administrator,
+| December 1993 to December 2017
+
+I have setup a secure network infrastructure, with backed up data.
+Traditionally such a setup would have required multiple computers,
+leading to higher setup costs and higher running costs. I am
+constantly on the look out for new programs to help ease
+administration and make the system more secure. Initially I used XEN
+to host my virtual systems; currently I am using Proxmox using
+OpenVZ and KVM sessions.
+
+VPAC (aka V3 Alliance)
+----------------------
+| Systems Administrator / Python Developer,
+| May 2006 to June 2015
+
+Initially I was responsible for the administration of the desktop
+computers. This includes the initial installation of the operating
+system (CentOS), and installing new software. I installed and
+administrated the tape backup system (Tivoli Storage Manager). I
+also assist with administrating the network. This has involved
+considerable work with both Linux and Windows.
+
+Later on, I moved to more Python 2 and Python 3 programming, especially
+with the open source Karaage project. Karaage is a Python/Django based
+website for management of users on supercomputer clusters. At one stage
+there were installations at different sites across the entire country.
+This required the ability to understand the different and sometimes conflicting
+requirements and the flexibility to attempt to implement these requirements.
 
 Other
 -----
