@@ -77,7 +77,7 @@ Traditionally such a setup would have required multiple computers,
 leading to higher setup costs and higher running costs. I am
 constantly on the look out for new programs to help ease
 administration and make the system more secure. Initially I used XEN
-to host my virtual systems; currently I am using Proxmox using
+to host my virtual systems; currently I am using ProxMox using
 OpenVZ and KVM sessions.
 
 VPAC (aka V3 Alliance)
