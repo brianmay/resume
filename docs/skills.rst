@@ -1,7 +1,7 @@
 Skills
 ======
 
-Software Development
+Software Engineering
 --------------------
 I keep my skills up to date by a combination of professional work, personal
 projects, and open source projects I contribute to. I also attend the PyCon AU
@@ -19,17 +19,16 @@ One of my projects uses continuous delivery (CD) meaning after the CI tests have
 the changes, it will build docker images and then automatically deploy the images to ECS
 instances running on AWS EC2 instances.
 
-My recent experience is with Python 3 and MicroPython. I have developed using numerous
+I have years experience with Python 3. I have developed using numerous
 python libraries such as Django, Django Rest Framework, and Django Channels.
 
 I am also experienced with JavaScript (including ES6), TypeScript, CSS, SASS, and frameworks
 such as Angular2 and Vue.
 
-I am also very excited with the growth of other programming languages,
-such as Ruby, Scala, Erlang, Elixir and Go. Given the opportunity I would
-jump at the opportunity to learn some of these languages.
+More recently I have started personel open source projects that other
+technologies, such as MicroPython, Elixir, Pheonix, Nerves, and React.
 
-I have also given talks at Conferences such as PyCon AU and local user
+I have given talks at Conferences such as PyCon AU and local user
 group meetings on my software. Some of the highlights:
 
 - Karaage talk at `PyCon AU 2015 <https://www.youtube.com/watch?v=9yiiwcntx5M>`_.
