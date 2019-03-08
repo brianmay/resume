@@ -15,6 +15,7 @@ RUN pip install pipenv
 ADD Pipfile Pipfile.lock /app/
 RUN pipenv sync
 
+COPY style.css /app/
 COPY ./docs /app/docs/
 
 RUN mkdir out \
