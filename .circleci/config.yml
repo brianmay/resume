@@ -23,15 +23,20 @@ jobs:
       - checkout # check out the code in the project directory
       - setup_remote_docker:
           docker_layer_caching: true
-      - run: |
-          docker build \
-            --file "Dockerfile" \
-            --tag "brianmay/resume:latest" \
-            --build-arg "BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"`" \
-            --build-arg "VCS_REF=$CIRCLE_SHA1" \
-            .
-          docker login -u "$DOCKER_USER" -p "$DOCKER_PASS"
-          docker push "brianmay/resume:latest"
+      - run:
+          name: Docker build
+          command: |
+            docker build \
+              --file "Dockerfile" \
+              --tag "brianmay/resume:latest" \
+              --build-arg "BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"`" \
+              --build-arg "VCS_REF=$CIRCLE_SHA1" \
+              .
+      - run:
+          name: Docker upload
+          command: |
+            docker login -u "$DOCKER_USER" -p "$DOCKER_PASS"
+            docker push "brianmay/resume:latest"
 
 workflows:
   version: 2
