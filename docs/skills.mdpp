@@ -1,0 +1,51 @@
+# Skills
+
+Software Engineering
+:   I keep my skills up to date by a combination of professional work, personal
+    projects, and open source projects I contribute to. I also attend the PyCon AU
+    conference annually.
+
+    All my projects use git, which is considered the defacto default revision control
+    system.
+
+    My projects use continuous integration (CI) meaning a set of unit tests automatically
+    run with every git push or git pull request. This is typically implemented with
+    tools such as Jenkins, Travis or CircleCI.
+
+    Some of my projects uses continuous delivery (CD) meaning after the CI tests have approved
+    the changes, it will build docker images and then automatically deploy the images to
+    my Kubernetes cluster.
+
+    I have years experience with Python. I have developed using numerous
+    Python libraries such as Django, Django Rest Framework, and Django Channels.
+
+    I am also experienced with JavaScript (including ES6), TypeScript, CSS, SASS, and frameworks
+    such as Angular2 and Vue.
+
+Presentation
+:   I have given talks at Conferences and local user group meetings on my software.
+
+    - Karaage talk at [PyCon AU 2015](https://www.youtube.com/watch?v=9yiiwcntx5M).
+    - Robotica talk at [LCA2018](https://www.youtube.com/watch?v=mCUpShC9Cs8).
+
+Computer Administration
+:   I keep my Linux skills up to date by maintaining computer and network
+    systems for personal use. I also attend the Linux.conf.au conference on
+    an annual basis.
+
+    In the past I have setup and maintained TSM and Bacula tape backups, IBM tape
+    libraries, LTO4 tape drives. I have also setup and maintained a a NT domain Samba
+    and done a lot of testing to upgrade this to an AD style domain. 
+
+    More currently, at home I maintain a CISCO ADSL router, a UniEdge Router, and a
+    UniEdge switch which supports a number of VLANs and a server running a number of
+    virtual machines using ProxMox (KVM and LXC). This network fully supports IPv4 and IPv6.
+
+Computer Security
+:   Computer security is very important, but often neglected.
+
+    All of my personal websites fully support secure SSL encryption that gives good results when
+    tested with Qualys SSL Labs. Also my DNS records have DNSSEC security.
+
+    My work with Debian requires usage of GNU Privacy Guard (GnuPG) for encrypting and signing
+    of packages. Furthermore I also use GnuPG with git for ensuring tags cannot be tampered with.

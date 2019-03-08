@@ -1,0 +1,15 @@
+# Brian May
+
+!INCLUDE "docs/objective.mdpp", 1
+
+!INCLUDE "docs/skills.mdpp", 1
+
+!INCLUDE "docs/projects.mdpp", 1
+
+!INCLUDE "docs/experience.mdpp", 1
+
+!INCLUDE "docs/organisations.mdpp", 1
+
+!INCLUDE "docs/training.mdpp", 1
+
+!INCLUDE "docs/contact.mdpp", 1

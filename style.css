@@ -1,0 +1,79 @@
+/* Whole document */
+body {
+    font-family: Times, Times New Roman, serif;
+    font-size: 12pt;
+    width: 800px;
+    margin: auto;
+    background: #FFFFFF;
+    padding: 10px 10px 10px 10px;
+}
+
+/* Title of the resume */
+h1 {
+    font-size: 55px;
+    color: #757575;
+    text-align:center;
+    margin-top:0px;
+    margin-bottom:35px;
+}
+
+/* Titles of categories */
+h2 {
+    color: #397249;
+}
+h2:before {
+    content: "";
+    display: inline-block;
+    margin-right:1%;
+    width: 17%;
+    height: 10px;
+    background-color: #9CB770;
+}
+
+h2:after {
+    content: "";
+    display: inline-block;
+    margin-left:1%;
+    width: 16%;
+    height: 10px;
+    background-color: #9CB770;
+}
+
+/* Definitions */
+dt {
+    float: left;
+    clear: left;
+    width: 17%;
+    font-weight: bold;
+}
+dd {
+    margin-left: 17%;
+    margin-bottom: 30px;
+    padding-left: 1%;
+}
+p {
+    margin-top:0;
+    margin-bottom:7px;
+}
+
+/* Blockquotes */
+blockquote {
+    text-align: center
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #397249;
+}
+a:hover, a:active {
+    background-color: #397249;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #333;
+}
+
+/* Horizontal separators */
+hr {
+    color: #A6A6A6;
+}
