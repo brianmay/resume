@@ -27,5 +27,5 @@ RUN mkdir out \
 FROM nginx:1.13
 LABEL maintainer="Brian May <brian@linuxpenguins.xyz>"
 COPY style.css /usr/share/nginx/html
-COPY --from=python /app/out/ /usr/share/nginx/html
-RUN chmod go+rX -R /usr/share/nginx/html
+COPY --from=python /app/out/ /usr/share/nginx/html/brian/resume
+RUN chmod go+rX -R /usr/share/nginx/html/brian/resume
