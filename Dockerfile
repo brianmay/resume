@@ -18,10 +18,10 @@ RUN pipenv sync
 COPY ./docs /app/docs/
 
 RUN mkdir out \
- && pipenv run markdown-pp docs/index.mdpp -o out/resume.md \
- && pandoc -c style.css out/resume.md -o out/resume.pdf -t html5 \
- && pandoc -c style.css out/resume.md -o out/resume.html -t html5 \
- && pandoc -c style.css out/resume.md -o out/resume.docx -t html5
+ && pipenv run markdown-pp docs/index.mdpp -o out/brianmay.md \
+ && pandoc -c style.css out/brianmay.md -o out/brianmay.pdf -t html5 \
+ && pandoc -c style.css out/brianmay.md -o out/brianmay.html -t html5 \
+ && pandoc -c style.css out/brianmay.md -o out/brianmay.docx -t html5
 
 # Stage 1, based on Nginx, to have only the compiled app, ready for production with Nginx
 FROM nginx:1.13
