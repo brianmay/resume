@@ -26,6 +26,6 @@ RUN mkdir out \
 # Stage 1, based on Nginx, to have only the compiled app, ready for production with Nginx
 FROM nginx:1.13
 LABEL maintainer="Brian May <brian@linuxpenguins.xyz>"
-COPY style.css /usr/share/nginx/html
+COPY style.css /usr/share/nginx/html/brian/resume
 COPY --from=python /app/out/ /usr/share/nginx/html/brian/resume
-RUN chmod go+rX -R /usr/share/nginx/html/brian/resume
+RUN chmod go+rX -R /usr/share/nginx/html
