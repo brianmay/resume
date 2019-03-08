@@ -2,16 +2,16 @@
 Many of my skills come from open source projects. These are available on github. Some of the highlights are:
 
 [Karaage](https://github.com/Karaage-Cluster/karaage)
-:   Karaage is a Django based python application for management of users
+:   A Django based python application for management of users
     on their super computer clusters using LDAP.
 
 
 [Spud](https://github.com/brianmay/spud)
-:   is a photo database using Django for the REST
+:   A photo database using Django for the REST
     back-end and Angular for the frontend.
 
 [Robotica](https://github.com/brianmay/robotica-elixir/)
-:   is a nerves/Elixir based tool for management of events around the house on
+:   A nerves/Elixir based tool for management of events around the house on
     several Raspberry Pis.
 
 [Remote Control](https://github.com/brianmay/robotica-remote/)
