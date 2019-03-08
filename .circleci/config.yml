@@ -14,7 +14,7 @@ jobs:
       - run:
           name: Run Spell Checker
           command: |
-            ./check-spelling
+            ./check_spelling
 
   deploy-prod:
     docker:
