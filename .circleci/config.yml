@@ -26,6 +26,8 @@ jobs:
       - run:
           name: Docker build
           command: |
+            docker pull "python:3.7"
+            docker pull "nginx:1.13"
             docker pull "brianmay/resume:latest"
             docker build \
               --cache-from "brianmay/resume:latest" \
