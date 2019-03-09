@@ -4,12 +4,12 @@ LABEL maintainer="Brian May <brian@linuxpenguins.xyz>"
 WORKDIR /app
 
 RUN apt-get update \
- && apt-get install -y pandoc \
+ && apt-get install -y pandoc xfonts-75dpi xfonts-base \
  && rm -rf /var/lib/apt/lists/*
 
-RUN wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.4/wkhtmltox-0.12.4_linux-generic-amd64.tar.xz \
- && tar vxf wkhtmltox-0.12.4_linux-generic-amd64.tar.xz \
- && cp wkhtmltox/bin/wk* /usr/local/bin/
+ENV WKHTML2PDF_VERSION 0.12.5
+RUN wget "https://downloads.wkhtmltopdf.org/0.12/${WKHTML2PDF_VERSION}/wkhtmltox_${WKHTML2PDF_VERSION}-1.stretch_amd64.deb" \
+ && apt-get install -y ./wkhtmltox_${WKHTML2PDF_VERSION}-1.stretch_amd64.deb
 
 RUN pip install pipenv
 ADD Pipfile Pipfile.lock /app/
