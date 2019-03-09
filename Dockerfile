@@ -16,6 +16,7 @@ ADD Pipfile Pipfile.lock /app/
 RUN pipenv sync
 
 COPY style.css /app/
+COPY ./fonts /app/fonts/
 COPY ./docs /app/docs/
 
 # version info
@@ -33,6 +34,7 @@ RUN mkdir out \
 FROM nginx:1.13
 LABEL maintainer="Brian May <brian@linuxpenguins.xyz>"
 RUN mkdir -p /usr/share/nginx/html/brian/resume
-COPY style.css /usr/share/nginx/html/brian/resume
+COPY style.css /usr/share/nginx/html/brian/resume/
+COPY fonts /usr/share/nginx/html/brian/resume/fonts/
 COPY --from=python /app/out/ /usr/share/nginx/html/brian/resume
 RUN chmod go+rX -R /usr/share/nginx/html
