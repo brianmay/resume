@@ -14,7 +14,7 @@ Many of my skills come from open source projects. These are available on github.
 :   A nerves/Elixir based tool for management of events around the house on
     several Raspberry Pis.
 
-[Remote Control](https://github.com/brianmay/robotica-remote/)
+[Remote](https://github.com/brianmay/robotica-remote/)
 :   A MicroPython based 3d printed remote control for Robotica.
 
 Other
