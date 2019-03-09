@@ -28,7 +28,7 @@ jobs:
           command: |
             docker pull "brianmay/resume:latest"
             docker build \
-              --cache-from "brianmay/resume:latest"
+              --cache-from "brianmay/resume:latest" \
               --file "Dockerfile" \
               --tag "brianmay/resume:latest" \
               --build-arg "BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"`" \
