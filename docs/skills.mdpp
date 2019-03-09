@@ -5,22 +5,14 @@ Software Engineering
     projects, and open source projects I contribute to. I also attend the PyCon AU
     conference annually.
 
-    All my projects use git, which is considered the defacto default revision control
-    system.
+    I experienced with Python, JavaScript, CSS, TypeScript, and Elixir. I have
+    developed using numerous frameworks such as Django, Django Rest Framework,
+    Django Channels, React, Angular, Pheonix, and Nerves.
 
-    My projects use continuous integration (CI) meaning a set of unit tests automatically
-    run with every git push or git pull request. This is typically implemented with
-    tools such as Jenkins, Travis or CircleCI.
-
-    Some of my projects uses continuous delivery (CD) meaning after the CI tests have approved
-    the changes, it will build docker images and then automatically deploy the images to
-    my Kubernetes cluster.
-
-    I have years experience with Python. I have developed using numerous
-    Python libraries such as Django, Django Rest Framework, and Django Channels.
-
-    I am also experienced with JavaScript (including ES6), TypeScript, CSS, SASS, and frameworks
-    such as Angular2 and Vue.
+    My projects use continuous deployment (CD) meaning after every git push
+    the code will automatically be tested, docker images built, and then
+    automatically deployed to my Kubernetes cluster. This is typically
+    implemented with tools such as Jenkins, Travis or CircleCI.
 
 Presentation
 :   I have given talks at Conferences and local user group meetings on my software.

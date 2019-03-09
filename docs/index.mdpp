@@ -13,3 +13,5 @@
 !INCLUDE "docs/training.mdpp", 1
 
 !INCLUDE "docs/contact.mdpp", 1
+
+!INCLUDE "docs/version.mdpp", 1

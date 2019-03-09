@@ -18,7 +18,12 @@ RUN pipenv sync
 COPY style.css /app/
 COPY ./docs /app/docs/
 
+# version info
+ARG BUILD_DATE=date
+ARG VCS_REF=commit
+
 RUN mkdir out \
+ && echo "Document version: ${BUILD_DATE} ${VCS_REF}" > docs/version.mdpp \
  && pipenv run markdown-pp docs/index.mdpp -o out/brianmay.md \
  && pandoc -c style.css out/brianmay.md -o out/brianmay.pdf -t html5 \
  && pandoc -c style.css out/brianmay.md -o out/brianmay.html -t html5 \
