@@ -1,24 +1,24 @@
 /* Whole document */
 @font-face {
-    font-family: serif;
+    font-family: my-serif;
     src: url(fonts/LiberationSerif-Regular.ttf);
 }
 @font-face {
-    font-family: serif;
+    font-family: my-serif;
     src: url(fonts/LiberationSerif-Bold.ttf);
     font-weight: bold;
 }
 @font-face {
-    font-family: mono;
+    font-family: my-mono;
     src: url(fonts/LiberationMono-Regular.ttf);
 }
 @font-face {
-    font-family: mono;
+    font-family: my-mono;
     src: url(fonts/LiberationMono-Bold.ttf);
     font-weight: bold;
 }
 body {
-    font-family: serif;
+    font-family: my-serif;
     font-size: 13pt;
     max-width: 800px;
     margin: auto;
@@ -101,5 +101,5 @@ ul {
     padding-left: 18px;
 }
 pre {
-    font-family: mono;
+    font-family: my-mono;
 }
