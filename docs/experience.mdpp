@@ -8,19 +8,21 @@ WSP Digital
     company does consulting work for a number of big clients. In working for
     this company I gained considerable knowledge in AWS services, such as EC2
     and ECS. I also worked in different teams with different
-    protocols for working together and diverse range of opinions.
+    protocols for working together and diverse range of opinions. Such work can
+    vary widely from websites for government clients through to dwell and run
+    time calculations from signalling data for NSW trains.
 
 The University of Melbourne
 :   Python Developer (casual),
     April 2016 to present
 
     The University of Melbourne uses a project called Karaage for management of users
-    on their super computer clusters. This Works with Python, Django, LDAP. They
-    require me to maintain Karaage, because I was the lead developer of Karaage while
-    at VPAC. This is a difficult project to maintain, because there are numerous users
-    of Karaage we have lost contact with since the demise of VPAC. As such there is a
-    lot of complexity in legacy code and difficult decisions need to be made when the
-    legacy code can be removed or refactored. I have also started a blog to attempt to
+    on their super computer clusters. This Works with Python, Django, LDAP. I
+    continue to maintain Karaage, because I was the lead developer of Karaage while
+    at VPAC. This is a difficult project to maintain because it is an old project.
+    As such there is a lot of complexity in legacy code and difficult decisions
+    need to be made when the legacy code can be removed or refactored. I have
+    also started a blog to attempt to
     [document](https://karaage-cluster.github.io/) some of the key changes.
 
 Freexian
@@ -38,21 +40,17 @@ Debian
     January 1998 to present
 
     Debian is a free non-proprietary operating system, which is designed
-    and implemented by volunteers world wide. I started by packaging
-    maintaining the Heimdal package for Debian (Kerberos). Currently I
-    maintain a number of Python packages as part of the Debian Python
-    Modules Team. I contribute to mailing list discussions on the future
-    directions that the operating should take.
-
-    Debian is a global project with developers from all over
-    the world. Good coordination and communication skills are essential
-    in making this work efficiently. As such, I have obtained skills
-    required for communicating to other Debian developers in an effective
-    manner, using tools like Email and the Debian bug tracking system.
+    and implemented by volunteers world wide. I maintain a number of
+    packages for Debian and I am part of the Debian Python Modules Team. I
+    contribute to mailing list discussions on the future directions that the
+    operating should take.
 
     Good communications is absolutely vital. All communications must be done
     via electronic means over different time zones. If there is a misunderstanding,
     it is not possible to meet face to face to resolve the problem.
+    As such, I have obtained skills required for communicating to other Debian
+    developers in an effective manner, using tools like Email and the Debian bug
+    tracking system.
 
 VPAC
 :   Systems Administrator / Python Developer,
@@ -67,7 +65,7 @@ VPAC
     also assist with administrating the network. This has involved
     considerable work with both Linux and Windows.
 
-    Later on, I moved to more Python 2 and Python 3 programming, especially
+    Later on, I moved to more Python programming, especially
     with the open source Karaage project. Karaage is a Python/Django based
     website for management of users on supercomputer clusters. At one stage
     there were installations at different sites across the entire country.
