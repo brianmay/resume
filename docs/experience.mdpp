@@ -30,7 +30,7 @@ Freexian
     February 2016 to present
 
     Freexian sponsors creating security updated packages for legacy Debian based
-    operating systems. This is a thankless task that must be done very carefully
+    operating systems. This is a task that must be done very carefully
     so as not to break critical computer systems. It involves
     coordination with other team members, the Debian security team, the
     package maintainers, upstream authors, and any other relevant party.
@@ -43,9 +43,9 @@ Debian
     and implemented by volunteers world wide. I maintain a number of
     packages for Debian and I am part of the Debian Python Modules Team. I
     contribute to mailing list discussions on the future directions that the
-    operating should take.
+    operations should take.
 
-    Good communications is absolutely vital. All communications must be done
+    Good communication is absolutely vital. All communications must be done
     via electronic means over different time zones. If there is a misunderstanding,
     it is not possible to meet face to face to resolve the problem.
     As such, I have obtained skills required for communicating to other Debian
@@ -59,10 +59,10 @@ VPAC
     Note: VPAC was also known as V3 Alliance.
 
     Initially I was responsible for the administration of the desktop
-    computers. This includes the initial installation of the operating
-    system (CentOS), and installing new software. I installed and
-    administrated the tape backup system (Tivoli Storage Manager). I
-    also assist with administrating the network. This has involved
+    computers. This included the initial installation of the operating
+    system (CentOS), and installation of new software. I installed and
+    administrated their tape backup system (Tivoli Storage Manager). I
+    also assisted with administrating the network. This involved
     considerable work with both Linux and Windows.
 
     Later on, I moved to more Python programming, especially
@@ -73,7 +73,7 @@ VPAC
     requirements and the flexibility to attempt to implement these requirements.
 
 Other
-:   Previously I have worked for a number of other companies. Most notable:
+:   Previously I worked for a number of other companies. Most notable:
 
     - 14 years working as a System administrator for Microcom Australia.
     - 4 years working as a Systems administrator for SWS.

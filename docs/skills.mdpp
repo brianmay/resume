@@ -6,7 +6,7 @@ Software Engineering
     conference annually.
 
     I am experienced with Python, JavaScript, CSS, TypeScript, and Elixir. I have
-    developed using numerous frameworks such as Django, Django Rest Framework,
+    developed software using numerous frameworks such as Django, Django Rest Framework,
     Django Channels, React, Angular, Phoenix Framework, and Nerves.
 
     My projects use continuous deployment (CD) meaning after every git push
@@ -15,7 +15,8 @@ Software Engineering
     implemented with tools such as Jenkins, Travis or CircleCI.
 
 Presentation
-:   I have given talks at Conferences and local user group meetings on my software.
+:   I have given talks at Conferences and local user group meetings based on my software
+    developments.
 
     - Karaage talk at [PyCon AU 2015](https://www.youtube.com/watch?v=9yiiwcntx5M).
     - Robotica talk at [LCA2018](https://www.youtube.com/watch?v=mCUpShC9Cs8).
