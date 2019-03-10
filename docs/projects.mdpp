@@ -18,7 +18,7 @@ Many of my skills come from open source projects. These are available on github.
 :   A MicroPython based 3d printed remote control for Robotica.
 
 Tesla
-:   A nerves/Elixir based tool for automatically monitoring our Telsa
+:   A nerves/Elixir based tool for automatically monitoring our Tesla
     and making warnings via Robotica to remind us to do things like plug in
     the car overnight for charging.
 
