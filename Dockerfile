@@ -1,5 +1,5 @@
 # Stage 0, to build and compile Jekyll
-FROM python:3.7 as python
+FROM python:3.7-buster as python
 LABEL maintainer="Brian May <brian@linuxpenguins.xyz>"
 WORKDIR /app
 
@@ -26,9 +26,9 @@ ARG VCS_REF=commit
 RUN mkdir out \
  && echo "Document version: ${BUILD_DATE} ${VCS_REF}" > docs/version.mdpp \
  && pipenv run markdown-pp docs/index.mdpp -o out/brianmay.md \
- && pandoc -c style.css out/brianmay.md -o out/brianmay.pdf -t html5 \
- && pandoc -c style.css out/brianmay.md -o out/brianmay.html -t html5 \
- && pandoc -c style.css out/brianmay.md -o out/brianmay.docx -t html5
+ && pandoc -c style.css out/brianmay.md -o out/brianmay.html -t html5 --from markdown --self-contained \
+ && pandoc -c style.css out/brianmay.md -o out/brianmay.pdf -t html5 --from markdown \
+ && pandoc -c style.css out/brianmay.md -o out/brianmay.docx -t html5 --from markdown
 
 # Stage 1, based on Nginx, to have only the compiled app, ready for production with Nginx
 FROM nginx:1.13
