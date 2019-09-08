@@ -100,7 +100,7 @@ Online Forms
     A Django based python application for management of users
     on their super computer clusters using LDAP.
 
-    In working on this project I rewrito legacy code in such a way to minimize
+    In working on this project I rewrite legacy code in such a way to minimize
     downtime and increasing the reliability of the code.
 
 ## 2000 to present
