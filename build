@@ -1,0 +1,14 @@
+#!/bin/sh
+set -ex
+
+build() {
+    pipenv run markdown-pp "docs/index-$1.mdpp" -o "out/brianmay-$1.md"
+    pandoc -c style.css "out/brianmay-$1.md" -o "out/brianmay-$1.html" -t html5 --from markdown --lua-filter=pagebreak.lua --self-contained
+    pandoc -c style.css "out/brianmay-$1.md" -o "out/brianmay-$1.pdf" -t html5 --from markdown --lua-filter=pagebreak.lua
+    pandoc -c style.css "out/brianmay-$1.md" -o "out/brianmay-$1.docx" -t html5 --from markdown --lua-filter=pagebreak.lua
+}
+
+rm -rf out
+mkdir -p out
+build resume
+build appendix
