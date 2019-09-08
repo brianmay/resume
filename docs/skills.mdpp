@@ -34,4 +34,4 @@ Computer Security
 :   All of my personal websites fully support secure SSL encryption that gives
     good results when tested with Qualys SSL Labs. My DNS records have
     DNSSEC security. I use GNU Privacy Guard (GnuPG) for digital signature,
-    epecially with signing of packages for Debian.
+    especially with signing of packages for Debian.
