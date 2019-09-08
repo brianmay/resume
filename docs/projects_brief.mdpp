@@ -1,0 +1,117 @@
+# Projects
+Many of my skills come from open source projects. These are available on github.
+
+Various web services I have accounts on:
+
+- [Homepage](https://linuxpenguins.xyz/brian/) - https://linuxpenguins.xyz/brian/
+- [Stack Overflow](http://careers.stackoverflow.com/penguinbrian) - http://careers.stackoverflow.com/penguinbrian
+- [Github](https://github.com/brianmay/) - https://github.com/brianmay/
+- [GitLab](https://gitlab.com/u/penguin_brian) - https://gitlab.com/u/penguin_brian
+- [Linkedin](https://www.linkedin.com/in/brian-may-44824521) - https://www.linkedin.com/in/brian-may-44824521
+
+The following is a list of some of the more significant projects I have been involved
+in, both open source and proprietary. A more complete list is available on request as
+part of the Appendix to this document.
+
+## 2019 to present
+
+[PhoneDB](https://github.com/brianmay/phone_db/)
+:   Technologies: Elixir, Phoenix, PostgreSQL
+
+    An application for recording phone numbers of incoming
+    calls from Freeswitch for automatic call filtering.
+
+    In writing this code, I learnt about Phoenix live view, a technology that
+    allows the creation of interactive and responsible web apps entirely in
+    Elixir.
+
+Energy Rating
+:   Technologies: Python, Django, PostgreSQL\
+    Employer: WSP Digital
+
+    An established application for storage and calculation of data used for
+    energy efficiency star ratings used throughout Australia and NZ.
+
+    I am involved in support work for solving day to day issues that
+    user's face as well as work to keep the code up to date with the latest
+    legislation.
+
+## 2018 to present
+
+[TeNerves](https://github.com/brianmay/tenerves)
+:   Technologies: Elixir, Nerves, PostgreSQL, Robotica
+
+    A Nerves/Elixir based tool for automatically monitoring our Tesla
+    and making warnings via Robotica to remind us to do things like plug in
+    the car overnight for charging.
+
+    In writing this code, I learnt about using Ecto, a functional library
+    for talking to an SQL database, from within a Nerves application.
+
+[Robotica](https://github.com/brianmay/robotica-elixir/)
+:   Technologies: Elixir, Nerves, MQTT
+
+    A rewrite of the Python based tool using nerves/Elixir. This is a tool
+    for management of events around my house on several Raspberry Pis.
+
+    In writing this project I learnt I lot about Nerves and how to
+    create custom images for Nerves deployments.
+
+DaRT
+:   Technologies: Python, Elixir, Pandas, ElasticSearch, AWS\
+    Employer: WSP Digital\
+    Client: NSW Trains
+
+    Python/Elixir code to analyse and join multiple tables of different formats
+    from multiple sources in order to generate statistics on trains such as
+    dwell times and run times.
+
+    In writing this code I learnt about joining tables from different
+    sources and how to do so in a fast and efficient manner.
+
+## 2016 to present
+
+MyRocc
+:   Technologies: Python, Django, PostgreSQL, Cumulocity, ECS, Shippable\
+    Employer: WSP Digital\
+    Client: VicRoads
+
+    Website for management of IOT devices along freeways.
+
+    I contributed to a new greenfield development as a team
+    using Agile management.
+
+Online Forms
+:   Technologies: Python, Django, PostgreSQL\
+    Employer: WSP Digital\
+    Client: FACS
+
+    Python/Django code for generic form based system.
+
+    I successfully contributed to a large complicated code base
+    in a large team effort.
+
+## 2010 to present
+
+[Karaage](https://github.com/Karaage-Cluster/karaage)
+:   Technologies: Python, Django, LDAP, MySQL, Slurm, AAF Shibboleth\
+    Employer: VPAC ➔ UniMelb
+
+    A Django based python application for management of users
+    on their super computer clusters using LDAP.
+
+    In working on this project I rewrito legacy code in such a way to minimize
+    downtime and increasing the reliability of the code.
+
+## 2000 to present
+
+[Spud](https://github.com/brianmay/spud)
+:   Technologies: Python, Django, PostgreSQL
+
+    A photo database using Django/Python for the REST
+    back-end and Angular2 for the front-end.
+
+    This project has been valuable experience in learning how to
+    efficiently store tree like structures in a SQL based backend.
+    It has also enabled me to understand writing the client as a JavaScript
+    based web app.

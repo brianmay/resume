@@ -15,7 +15,7 @@ RUN pip install pipenv
 ADD Pipfile Pipfile.lock /app/
 RUN pipenv sync
 
-COPY style.css /app/
+COPY build style.css /app/
 COPY ./fonts /app/fonts/
 COPY ./docs /app/docs/
 
@@ -25,16 +25,11 @@ ARG VCS_REF=commit
 
 RUN mkdir out \
  && echo "Document version: ${BUILD_DATE} ${VCS_REF}" > docs/version.mdpp \
- && pipenv run markdown-pp docs/index.mdpp -o out/brianmay.md \
- && pandoc -c style.css out/brianmay.md -o out/brianmay.html -t html5 --from markdown --self-contained \
- && pandoc -c style.css out/brianmay.md -o out/brianmay.pdf -t html5 --from markdown \
- && pandoc -c style.css out/brianmay.md -o out/brianmay.docx -t html5 --from markdown
+ && ./build
 
 # Stage 1, based on Nginx, to have only the compiled app, ready for production with Nginx
 FROM nginx:1.13
 LABEL maintainer="Brian May <brian@linuxpenguins.xyz>"
 RUN mkdir -p /usr/share/nginx/html/brian/resume
-COPY style.css /usr/share/nginx/html/brian/resume/
-COPY fonts /usr/share/nginx/html/brian/resume/fonts/
 COPY --from=python /app/out/ /usr/share/nginx/html/brian/resume
 RUN chmod go+rX -R /usr/share/nginx/html

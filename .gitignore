@@ -1,6 +1,2 @@
-/brianmay/version.py
-/docs/_build
-/.python-version
-/.vscode
-*.pyc
 /.venv/
+/out/

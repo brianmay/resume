@@ -24,6 +24,7 @@ body {
     margin: auto;
     background: #FFFFFF;
     padding: 10px 10px 10px 10px;
+    color: #000000;
 }
 
 /* Title of the resume */
@@ -57,6 +58,11 @@ h2:after {
     background-color: #9CB770;
 }
 
+/* Titles of sub-categories */
+h3 {
+    color: #397249;
+}
+
 /* Definitions */
 dt {
     float: left;
@@ -81,9 +87,9 @@ blockquote {
 }
 
 /* Links */
-a {
+a:link, a:visited {
     text-decoration: none;
-    color: #397249;
+    color: #000000;
 }
 a:hover, a:active {
     background-color: #397249;
