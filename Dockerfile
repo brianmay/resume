@@ -4,8 +4,12 @@ LABEL maintainer="Brian May <brian@linuxpenguins.xyz>"
 WORKDIR /app
 
 RUN apt-get update \
- && apt-get install -y pandoc xfonts-75dpi xfonts-base wkhtmltopdf \
+ && apt-get install -y pandoc xfonts-75dpi xfonts-base \
  && rm -rf /var/lib/apt/lists/*
+
+ENV WKHTML2PDF_VERSION 0.12.5
+RUN wget "https://downloads.wkhtmltopdf.org/0.12/${WKHTML2PDF_VERSION}/wkhtmltox_${WKHTML2PDF_VERSION}-1.stretch_amd64.deb" \
+ && apt-get install -y ./wkhtmltox_${WKHTML2PDF_VERSION}-1.stretch_amd64.deb
 
 RUN pip install pipenv
 ADD Pipfile Pipfile.lock /app/
