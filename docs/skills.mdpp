@@ -7,7 +7,7 @@ conference annually.
 Software Engineering
 :   I am experienced with Python, JavaScript, CSS, TypeScript, and Elixir. I have
     developed software using numerous frameworks such as Django, Django Rest Framework,
-    Django Channels, React, Angular, Phoenix Framework, and Nerves.
+    Django Channels, Geos, React, Angular, Phoenix Framework, and Nerves.
 
     My projects use continuous deployment (CD) meaning after every git push
     the code will automatically be tested, docker images built, and then

@@ -34,7 +34,7 @@ Geotechnical Digitisation
 :   Technologies: Python, Django, PostgreSQL\
     Employer: WSP Digital
 
-    A Django/Python application for recording details of boreholes.
+    A Django/Python/Geos application for recording details of boreholes.
 
     I am responsible for updating the backend code to as per requirements for
     the front end.
@@ -72,7 +72,7 @@ Energy Rating
     retries from an Elixir GenServer.
 
 [ex_tesla](https://github.com/brianmay/ex_tesla/commits/master)
-:   Technologies: Elixir, Tesla
+:   Technologies: Elixir, Tesla, Geos
 
     Elixir library for talking to the Tesla API for cars.
 
@@ -180,7 +180,7 @@ Design Package Workflow
 ## 2016 to present
 
 MyRocc
-:   Technologies: Python, Django, PostgreSQL, Cumulocity, ECS, Shippable\
+:   Technologies: Python, Django, Geos, PostgreSQL, Cumulocity, ECS, Shippable\
     Employer: WSP Digital\
     Client: VicRoads
 
