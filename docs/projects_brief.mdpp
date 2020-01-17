@@ -39,7 +39,7 @@ Energy Rating
 ## 2018 to present
 
 [TeNerves](https://github.com/brianmay/tenerves)
-:   Technologies: Elixir, Nerves, PostgreSQL, Robotica
+:   Technologies: Elixir, Geos, Nerves, PostgreSQL, Robotica
 
     A Nerves/Elixir based tool for automatically monitoring our Tesla
     and making warnings via Robotica to remind us to do things like plug in
