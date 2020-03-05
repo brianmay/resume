@@ -13,17 +13,25 @@ The following is a list of some of the more significant projects I have been inv
 in, both open source and proprietary. A more complete list is available on request as
 part of the Appendix to this document.
 
+## 2020 to present
+
+BUPA
+:   Technologies: Python, Django, MySQL
+    Employer: WSP Digitial
+
+    Upgrade legacy project that uses Python 2.7, Django 1.9 to use
+    Python 3.8, Django 2.2, and Docker containers for deploys.
+
 ## 2019 to present
 
-[PhoneDB](https://github.com/brianmay/phone_db/)
-:   Technologies: Elixir, Phoenix, PostgreSQL
+Geotechnical Digitisation
+:   Technologies: Python, Django, PostgreSQL\
+    Employer: WSP Digital
 
-    An application for recording phone numbers of incoming
-    calls from Freeswitch for automatic call filtering.
+    A Django/Python/Geos application for recording details of boreholes.
 
-    In writing this code, I learnt about Phoenix live view, a technology that
-    allows the creation of interactive and responsible web apps entirely in
-    Elixir.
+    I am responsible for updating the backend code to as per requirements for
+    the front end.
 
 Energy Rating
 :   Technologies: Python, Django, PostgreSQL\

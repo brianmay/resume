@@ -12,6 +12,15 @@ Various web services I have accounts on:
 The following is a list of some of my projects I have been involved
 in, both open source and proprietary.
 
+## 2020 to present
+
+BUPA
+:   Technologies: Python, Django, MySQL
+    Employer: WSP Digitial
+
+    Upgrade legacy project that uses Python 2.7, Django 1.9 to use
+    Python 3.8, Django 2.2, and Docker containers for deploys.
+
 ## 2019 to present
 
 [PhoneDB](https://github.com/brianmay/phone_db/)
