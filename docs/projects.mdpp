@@ -16,7 +16,7 @@ in, both open source and proprietary.
 
 BUPA
 :   Technologies: Python, Django, MySQL
-    Employer: WSP Digitial
+    Employer: WSP Digital
 
     Upgrade legacy project that uses Python 2.7, Django 1.9 to use
     Python 3.8, Django 2.2, and Docker containers for deploys.
