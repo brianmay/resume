@@ -16,8 +16,9 @@ part of the Appendix to this document.
 ## 2020 to present
 
 BUPA
-:   Technologies: Python, Django, MySQL
-    Employer: WSP Digital
+:   Technologies: Python, Django, MySQL\
+    Employer: WSP Digital\
+    Client: BUPA
 
     Upgrade legacy project that uses Python 2.7, Django 1.9 to use
     Python 3.8, Django 2.2, and Docker containers for deploys.
