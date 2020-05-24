@@ -32,11 +32,12 @@ Freeswitch
 Freexian
 frontend
 GenServer
-Geotechnical
 Geos
+Geotechnical
 github
 Heimdal
 ICMP
+IOS
 IOT
 IPv
 IVT
@@ -59,8 +60,10 @@ MicroPython
 Monash
 MQTT
 MyRocc
+MySQL
 NSW
 PHP
+PostgreSQL
 PPL
 ProxMox
 PTV
