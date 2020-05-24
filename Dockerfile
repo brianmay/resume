@@ -20,11 +20,13 @@ COPY ./fonts /app/fonts/
 COPY ./docs /app/docs/
 
 # version info
-ARG BUILD_DATE=date
-ARG VCS_REF=commit
+ARG GITHUB_SHA
+ARG GITHUB_REF
+ENV SHA=$GITHUB_SHA
+ENV REF=$GITHUB_REF
 
 RUN mkdir out \
- && echo "Document version: ${BUILD_DATE} ${VCS_REF}" > docs/version.mdpp \
+ && echo "Document version: ${SHA} ${REF}" > docs/version.mdpp \
  && ./build
 
 # Stage 1, based on Nginx, to have only the compiled app, ready for production with Nginx
