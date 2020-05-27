@@ -14,10 +14,7 @@
 
 name: Build and Deploy to GKE
 
-on:
-  push:
-    branches:
-    - master
+on: [push, pull_request]
 
 env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
@@ -26,8 +23,8 @@ env:
   IMAGE: resume
 
 jobs:
-  setup-build-publish-deploy:
-    name: Setup, Build, Publish, and Deploy
+  test:
+    name: Test valid HTML
     runs-on: ubuntu-latest
 
     steps:
@@ -41,6 +38,16 @@ jobs:
     - name: Run Spell Checker
       run: |-
         ./check_spelling
+
+  setup-build-publish-deploy:
+    name: Setup, Build, Publish, and Deploy
+    runs-on: ubuntu-latest
+    needs: test
+    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
 
     # Setup gcloud CLI
     - uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
