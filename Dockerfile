@@ -20,10 +20,10 @@ COPY ./fonts /app/fonts/
 COPY ./docs /app/docs/
 
 # version info
-ARG GITHUB_SHA
-ARG GITHUB_REF
-ENV SHA=$GITHUB_SHA
-ENV REF=$GITHUB_REF
+ARG VCS_REF
+ARG BUILD_DATE
+ENV SHA=$VCS_REF
+ENV BUILD_DATE=$BUILD_DATE
 
 RUN mkdir out \
  && echo "Document version: ${VCS_REF} ${BUILD_DATE}" > docs/version.mdpp \
