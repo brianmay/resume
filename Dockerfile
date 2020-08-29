@@ -7,9 +7,9 @@ RUN apt-get update \
  && apt-get install -y pandoc xfonts-75dpi xfonts-base \
  && rm -rf /var/lib/apt/lists/*
 
-ENV WKHTML2PDF_VERSION 0.12.5
-RUN wget "https://downloads.wkhtmltopdf.org/0.12/${WKHTML2PDF_VERSION}/wkhtmltox_${WKHTML2PDF_VERSION}-1.stretch_amd64.deb" \
- && apt-get install -y ./wkhtmltox_${WKHTML2PDF_VERSION}-1.stretch_amd64.deb
+ENV WKHTML2PDF_VERSION 0.12.6
+RUN wget "https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox_${WKHTML2PDF_VERSION}-1.buster_amd64.deb" \
+ && apt-get install -y ./wkhtmltox_${WKHTML2PDF_VERSION}-1.buster_amd64.deb
 
 RUN pip install pipenv
 ADD Pipfile Pipfile.lock /app/
@@ -26,7 +26,7 @@ ENV SHA=$GITHUB_SHA
 ENV REF=$GITHUB_REF
 
 RUN mkdir out \
- && echo "Document version: ${SHA} ${REF}" > docs/version.mdpp \
+ && echo "Document version: ${VCS_REF} ${BUILD_DATE}" > docs/version.mdpp \
  && ./build
 
 # Stage 1, based on Nginx, to have only the compiled app, ready for production with Nginx

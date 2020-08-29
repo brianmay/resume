@@ -4,7 +4,7 @@ set -ex
 build() {
     pipenv run markdown-pp "docs/index-$1.mdpp" -o "out/brianmay-$1.md"
     pandoc -c style.css "out/brianmay-$1.md" -o "out/brianmay-$1.html" -t html5 --from markdown --self-contained
-    pandoc -c style.css "out/brianmay-$1.md" -o "out/brianmay-$1.pdf" -t html5 --from markdown
+    pandoc -c style.css "out/brianmay-$1.md" -o "out/brianmay-$1.pdf" -t html5 --from markdown --pdf-engine-opt='--enable-local-file-access'
     pandoc -c style.css "out/brianmay-$1.md" -o "out/brianmay-$1.docx" -t html5 --from markdown
 }
 
