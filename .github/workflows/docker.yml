@@ -18,11 +18,3 @@ jobs:
     - name: Run Spell Checker
       run: |-
         ./check_spelling
-
-  push:
-    name: Push
-    uses: brianmay/workflows/.github/workflows/docker.yaml@main
-    secrets:
-      DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
-    needs:
-      - test

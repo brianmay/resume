@@ -14,5 +14,4 @@ mkdir out
 echo "Document version: ${VCS_REF} ${BUILD_DATE}" > docs/version.mdpp
 ./build
 
-rsync -v html brian@master.linuxpenguins.xyz:/var/www/html/brian/resume
-git checkout html/index.html
+rsync -rv out/ brian@master.linuxpenguins.xyz:/var/www/html/brian/resume
