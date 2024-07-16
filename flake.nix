@@ -1,5 +1,5 @@
 {
-  description = "A very basic flake";
+  description = "Brian's Resume";
 
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
   inputs.flake-utils.url = "github:numtide/flake-utils";
@@ -23,7 +23,7 @@
         });
       in {
         packages.default = pkgs.stdenv.mkDerivation {
-          name = "linuxpenguins-${version}";
+          name = "resume-${version}";
           src = ./.;
           buildInputs = with pkgs; [ wkhtmltopdf-bin pandoc ];
           buildPhase = ''
