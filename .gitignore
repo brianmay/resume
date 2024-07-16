@@ -2,3 +2,5 @@
 /docs/version.mdpp
 /local/
 /.direnv/
+/result
+/outputs/

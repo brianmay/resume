@@ -2,13 +2,25 @@
 set -ex
 
 build() {
-    markdown-pp "docs/index-$1.mdpp" -o "out/brianmay-$1.md"
-    pandoc -c style.css "out/brianmay-$1.md" -o "out/brianmay-$1.html" -t html5 --from markdown --self-contained
-    pandoc -c style.css "out/brianmay-$1.md" -o "out/brianmay-$1.pdf" -t html5 --from markdown --pdf-engine='wkhtmltopdf' --pdf-engine-opt='--enable-local-file-access'
-    pandoc -c style.css "out/brianmay-$1.md" -o "out/brianmay-$1.docx" -t html5 --from markdown
+    if [ "$1" == "resume" ]; then
+        cat docs/index-resume.mdpp docs/objective.mdpp docs/skills.mdpp  docs/projects_brief.mdpp docs/experience.mdpp docs/training.mdpp docs/contact.mdpp docs/version.mdpp > $out/brianmay-resume.md
+    elif [ "$1" == "appendix" ]; then
+        cat docs/index-appendix.mdpp docs/organisations.mdpp docs/projects.mdpp docs/version.mdpp > $out/brianmay-appendix.md
+    else
+        echo "Something went wrong" 1>&2
+        exit 1
+    fi
+
+    pandoc -c style.css "$out/brianmay-$1.md" -o "$out/brianmay-$1.html" -t html5 --from markdown --self-contained
+    pandoc -c style.css "$out/brianmay-$1.md" -o "$out/brianmay-$1.pdf" -t html5 --from markdown --pdf-engine='wkhtmltopdf' --pdf-engine-opt='--enable-local-file-access'
+    pandoc -c style.css "$out/brianmay-$1.md" -o "$out/brianmay-$1.docx" -t html5 --from markdown
 }
 
-rm -rf out
-mkdir -p out
+if test -z "$out"; then
+    out="out"
+fi
+
+rm -rf $out
+mkdir -p $out
 build resume
 build appendix

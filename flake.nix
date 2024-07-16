@@ -1,28 +1,39 @@
 {
   description = "A very basic flake";
 
-  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-22.11";
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
+  inputs.flake-utils.url = "github:numtide/flake-utils";
+  inputs.flockenzeit.url = "github:balsoft/flockenzeit";
 
-  outputs = { self, nixpkgs }:
+  outputs = { self, nixpkgs, flake-utils, flockenzeit }:
     let
       # Generate a user-friendly version number.
       version = builtins.substring 0 8 self.lastModifiedDate;
 
-      # System types to support.
-      supportedSystems = [ "x86_64-linux" ];
+      BUILD_DATE =
+        with flockenzeit.lib.splitSecondsSinceEpoch { } self.lastModified;
+        "${F}T${T}${Z}";
+      VCS_REF = "${self.rev or "dirty"}";
 
-      # Helper function to generate an attrset '{ x86_64-linux = f "x86_64-linux"; ... }'.
-      forAllSystems = nixpkgs.lib.genAttrs supportedSystems;
-
-      # Nixpkgs instantiated for supported system types.
-      nixpkgsFor = forAllSystems (system: import nixpkgs { inherit system; });
-    in {
-      devShells = forAllSystems (system:
-        let pkgs = nixpkgsFor.${system};
-        in {
-          default = pkgs.mkShell {
-            buildInputs = with pkgs; [ wkhtmltopdf-bin pandoc markdown-pp ];
-          };
+    in flake-utils.lib.eachDefaultSystem (system:
+      let
+        pkgs = (import nixpkgs {
+          inherit system;
+          config = { permittedInsecurePackages = [ "openssl-1.1.1w" ]; };
         });
-    };
+      in {
+        packages.default = pkgs.stdenv.mkDerivation {
+          name = "linuxpenguins-${version}";
+          src = ./.;
+          buildInputs = with pkgs; [ wkhtmltopdf-bin pandoc ];
+          buildPhase = ''
+            echo "Document version: ${VCS_REF} ${BUILD_DATE}" > docs/version.mdpp
+          '';
+          installPhase = ''
+            ./build
+          '';
+        };
+        devShells.default =
+          pkgs.mkShell { buildInputs = with pkgs; [ wkhtmltopdf-bin pandoc ]; };
+      });
 }

@@ -9,8 +9,9 @@ fi
 VCS_REF="$(git rev-parse HEAD)"
 BUILD_DATE="$(date --iso-8601=seconds)"
 
-rm -rf out
-mkdir out
+export out="out"
+rm -rf $out
+mkdir $out
 echo "Document version: ${VCS_REF} ${BUILD_DATE}" > docs/version.mdpp
 ./build
 

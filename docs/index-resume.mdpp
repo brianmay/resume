@@ -1,17 +1,3 @@
 % Brian May
 
 # Resume
-
-!INCLUDE "docs/objective.mdpp", 1
-
-!INCLUDE "docs/skills.mdpp", 1
-
-!INCLUDE "docs/projects_brief.mdpp", 1
-
-!INCLUDE "docs/experience.mdpp", 1
-
-!INCLUDE "docs/training.mdpp", 1
-
-!INCLUDE "docs/contact.mdpp", 1
-
-!INCLUDE "docs/version.mdpp", 1
