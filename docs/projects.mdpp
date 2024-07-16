@@ -1,4 +1,4 @@
-# Projects
+## Projects
 Many of my skills come from open source projects. These are available on github.
 
 Various web services I have accounts on:
@@ -12,7 +12,7 @@ Various web services I have accounts on:
 The following is a list of some of my projects I have been involved
 in, both open source and proprietary.
 
-## 2020 to present
+### 2020 to present
 
 BUPA
 :   Technologies: Python, Django, MySQL\
@@ -22,7 +22,7 @@ BUPA
     Upgrade legacy project that uses Python 2.7, Django 1.9 to use
     Python 3.8, Django 2.2, and Docker containers for deploys.
 
-## 2019 to present
+### 2019 to present
 
 [PhoneDB](https://github.com/brianmay/phone_db/)
 :   Technologies: Elixir, Phoenix, PostgreSQL
@@ -60,7 +60,7 @@ Energy Rating
     user's face as well as work to keep the code up to date with the latest
     legislation.
 
-## 2018 to present
+### 2018 to present
 
 [TeNerves](https://github.com/brianmay/tenerves)
 :   Technologies: Elixir, Geos, Nerves, PostgreSQL, Robotica
@@ -161,7 +161,7 @@ Design Package Workflow
 
     Python/Django Code to import data from legacy PM system into Jira.
 
-## 2017 to present
+### 2017 to present
 
 [Remote](https://github.com/brianmay/robotica-remote/)
 :   Technologies: ESP32, MicroPython, AsyncIO
@@ -187,7 +187,7 @@ Design Package Workflow
 
     A front-end for the spud photo album.
 
-## 2016 to present
+### 2016 to present
 
 MyRocc
 :   Technologies: Python, Django, Geos, PostgreSQL, Cumulocity, ECS, Shippable\
@@ -219,7 +219,7 @@ Debian LTS
     coordination with other team members, the Debian security team, the
     package maintainers, upstream authors, and any other relevant party.
 
-## 2012
+### 2012
 
 [TLDAP](https://github.com/Karaage-Cluster/python-tldap/)
 :   Technologies: Python, LDAP
@@ -227,7 +227,7 @@ Debian LTS
     A Python library for accessing LDAP servers in a server/schema
     independent manner. Used by Placard and Karaage.
 
-## 2010 to present
+### 2010 to present
 
 [Placard](https://github.com/VPAC/django-placard)
 :   Technologies: Python, Django, LDAP\
@@ -245,7 +245,7 @@ Debian LTS
     In working on this project I rewrite legacy code in such a way to minimize
     downtime and increasing the reliability of the code.
 
-## 2000 to present
+### 2000 to present
 
 [Spud](https://github.com/brianmay/spud)
 :   Technologies: Python, Django, PostgreSQL
@@ -270,7 +270,7 @@ Sitebuilder
 
     System management tool, using PHP and sudo calls.
 
-## 1990-2000
+### 1990-2000
 
 Radio test - Motorola
 :   Technologies: Windows 3, Fortran, Borland C++\
@@ -295,3 +295,4 @@ Debian packaging
     As such, I have obtained skills required for communicating to other Debian
     developers in an effective manner, using tools like Email and the Debian bug
     tracking system.
+

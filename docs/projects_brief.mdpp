@@ -1,4 +1,4 @@
-# Projects
+## Projects
 Many of my skills come from open source projects. These are available on github.
 
 Various web services I have accounts on:
@@ -13,7 +13,7 @@ The following is a list of some of the more significant projects I have been inv
 in, both open source and proprietary. A more complete list is available on request as
 part of the Appendix to this document.
 
-## 2020 to present
+### 2020 to present
 
 BUPA
 :   Technologies: Python, Django, MySQL\
@@ -23,7 +23,7 @@ BUPA
     Upgrade legacy project that uses Python 2.7, Django 1.9 to use
     Python 3.8, Django 2.2, and Docker containers for deploys.
 
-## 2019 to present
+### 2019 to present
 
 Geotechnical Digitisation
 :   Technologies: Python, Django, PostgreSQL\
@@ -45,7 +45,7 @@ Energy Rating
     user's face as well as work to keep the code up to date with the latest
     legislation.
 
-## 2018 to present
+### 2018 to present
 
 [TeNerves](https://github.com/brianmay/tenerves)
 :   Technologies: Elixir, Geos, Nerves, PostgreSQL, Robotica
@@ -78,7 +78,7 @@ DaRT
     In writing this code I learnt about joining tables from different
     sources and how to do so in a fast and efficient manner.
 
-## 2016 to present
+### 2016 to present
 
 MyRocc
 :   Technologies: Python, Django, Geos, PostgreSQL, Cumulocity, ECS, Shippable\
@@ -100,7 +100,7 @@ Online Forms
     I successfully contributed to a large complicated code base
     in a large team effort.
 
-## 2010 to present
+### 2010 to present
 
 [Karaage](https://github.com/Karaage-Cluster/karaage)
 :   Technologies: Python, Django, LDAP, MySQL, Slurm, AAF Shibboleth\
@@ -112,7 +112,7 @@ Online Forms
     In working on this project I rewrite legacy code in such a way to minimize
     downtime and increasing the reliability of the code.
 
-## 2000 to present
+### 2000 to present
 
 [Spud](https://github.com/brianmay/spud)
 :   Technologies: Python, Django, PostgreSQL
@@ -124,3 +124,4 @@ Online Forms
     efficiently store tree like structures in a SQL based backend.
     It has also enabled me to understand writing the client as a JavaScript
     based web app.
+

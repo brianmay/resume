@@ -1,4 +1,4 @@
-# Skills
+## Skills
 
 I keep my skills up to date by a combination of professional work, personal
 projects, and open source projects I contribute to. I also attend the PyCon AU
@@ -35,3 +35,4 @@ Computer Security
     good results when tested with Qualys SSL Labs. My DNS records have
     DNSSEC security. I use GNU Privacy Guard (GnuPG) for digital signature,
     especially with signing of packages for Debian.
+
