@@ -3,9 +3,9 @@ set -ex
 
 build() {
     if [ "$1" == "resume" ]; then
-        cat docs/index-resume.mdpp docs/objective.mdpp docs/skills.mdpp  docs/projects_brief.mdpp docs/experience.mdpp docs/training.mdpp docs/contact.mdpp docs/version.mdpp > $out/brianmay-resume.md
+        cat docs/index-resume.md docs/objective.md docs/skills.md  docs/projects_brief.md docs/experience.md docs/training.md docs/contact.md docs/version.md > $out/brianmay-resume.md
     elif [ "$1" == "appendix" ]; then
-        cat docs/index-appendix.mdpp docs/organisations.mdpp docs/projects.mdpp docs/version.mdpp > $out/brianmay-appendix.md
+        cat docs/index-appendix.md docs/organisations.md docs/projects.md docs/version.md > $out/brianmay-appendix.md
     else
         echo "Something went wrong" 1>&2
         exit 1
